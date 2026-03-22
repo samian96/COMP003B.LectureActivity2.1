@@ -12,9 +12,9 @@ namespace COMP003B.LectureActivity2._1.Controllers.ProfileController.cs
 
         [HttpGet]
 
-        public IActionResult Hobbies() 
+        public IActionResult Hobbies()
         {
-        return View();
+            return View();
         }
     }
 }
