@@ -23,9 +23,9 @@ namespace COMP003B.LectureActivity2._1
 
             app.UseStaticFiles();
 
-            app.UseMiddleware<COMP003B.LectureActivity2.Middleware.RequestLoggingMiddleware>();
+            app.UseMiddleware<COMP003B.LectureActivity2._1.Middleware.RequestLoggingMiddleware>();
 
-            app.UseMiddleware<RequestLoggingMiddleware>();
+            app.UseMiddleware<Middleware.RequestLoggingMiddleware>();
 
             app.UseWelcomePage("/welcome");
 
