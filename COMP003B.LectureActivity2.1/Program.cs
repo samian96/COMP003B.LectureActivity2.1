@@ -25,8 +25,6 @@ namespace COMP003B.LectureActivity2._1
 
             app.UseMiddleware<COMP003B.LectureActivity2._1.Middleware.RequestLoggingMiddleware>();
 
-            app.UseMiddleware<Middleware.RequestLoggingMiddleware>();
-
             app.UseWelcomePage("/welcome");
 
             app.UseRouting();
